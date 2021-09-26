@@ -15,12 +15,16 @@
 <script>
   export default {
     name: 'Secretdiv',
-    data() {
-      return {
-        rowtext: '我也不想这样反反复复',
-        columntext: '反正每个人最后都孤独',
-      }
-    }
+    props: {
+      rowtext: {
+        type: String,
+        default: '',
+      },
+      columntext: {
+        type: String,
+        default: '',
+      },
+    },
   }
 </script>
 <style scoped>

@@ -10,8 +10,8 @@
     </div>
 
     <div v-if="inputshow">
-      <input v-model="message" placeholder="edit me">
-      <input v-model="message" placeholder="edit me">
+      <input v-model="rowtext" placeholder="edit me">
+      <input v-model="columntext" placeholder="edit me">
     </div>
   </div>
 </template>

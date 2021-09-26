@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <SecretView />
+
+    <div id="button">
+      我也要玩
+    </div>
   </div>
 </template>
 
